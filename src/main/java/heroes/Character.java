@@ -16,6 +16,10 @@ public abstract class Character {
         return hp;
     }
 
+    public int getPower() {
+        return power;
+    }
+
     public abstract void kick(Character c);
 
     @Override
